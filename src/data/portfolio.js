@@ -1,3 +1,16 @@
+import Img1 from '../assets/img1.png';
+import Img2 from '../assets/img2.png';
+import Img3 from '../assets/img3.png';
+import Img4 from '../assets/img4.png';
+import Img5 from '../assets/img5.png';
+import paypal from '../assets/paypal.png';
+import envato from '../assets/envato.png';
+import qiwi from '../assets/qiwi.png';
+import shazam from '../assets/shazam.png';
+import stripe from '../assets/stripe.png';
+import volkswagen from '../assets/volkswagen.png';
+import slidesimg1 from '../assets/slidesimg1.png';
+
 export const siteConfig = {
   brand: 'S-K',
   name: 'Sakhavat',
@@ -95,8 +108,7 @@ export const projects = [
     id: 1,
     title: 'Finance Dashboard',
     category: 'Web Design',
-    image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    image: Img1,
     href: '#',
     size: 'small',
   },
@@ -104,8 +116,7 @@ export const projects = [
     id: 2,
     title: 'E-Commerce App',
     category: 'Mobile App',
-    image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+    image: Img2,
     href: '#',
     size: 'small',
   },
@@ -113,8 +124,7 @@ export const projects = [
     id: 3,
     title: 'Brand Identity',
     category: 'Branding',
-    image:
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
+    image: Img3,
     href: '#',
     size: 'small',
   },
@@ -122,8 +132,7 @@ export const projects = [
     id: 4,
     title: 'SaaS Platform',
     category: 'Product Design',
-    image:
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&h=500&fit=crop',
+    image: Img4,
     href: '#',
     size: 'large',
   },
@@ -131,19 +140,19 @@ export const projects = [
     id: 5,
     title: 'Travel Website',
     category: 'Web Design',
-    image:
-      'https://images.unsplash.com/photo-1522542550221-31fd19575a4d?w=800&h=500&fit=crop',
+    image: Img5,
     href: '#',
     size: 'large',
   },
 ]
 
 export const trustedBrands = [
-  { name: 'PayPal', color: 'bg-blue-500' },
-  { name: 'Stripe', color: 'bg-purple-500' },
-  { name: 'Shopify', color: 'bg-green-500' },
-  { name: 'Slack', color: 'bg-pink-500' },
-  { name: 'Notion', color: 'bg-gray-800' },
+   { image: paypal },
+  { image: envato},
+  { image: qiwi},
+  { image: shazam },
+  { image: stripe},
+  { image: volkswagen},
 ]
 
 export const testimonial = {
@@ -151,8 +160,7 @@ export const testimonial = {
     'Janice delivered exceptional work on our product redesign. Her attention to detail and user-centered approach transformed our platform. The results exceeded our expectations — user engagement increased by 40% within the first month.',
   name: 'James Wilson',
   role: 'CEO of ABC Corp',
-  image:
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+  image:slidesimg1,
 }
 
 export const pricingConfig = {

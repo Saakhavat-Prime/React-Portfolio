@@ -10,11 +10,11 @@ export default function Testimonials() {
         <div className="mb-16 flex flex-wrap items-center justify-center gap-4 md:gap-6">
           {trustedBrands.map((brand) => (
             <div
-              key={brand.name}
-              title={brand.name}
+              key={brand.image}
+              title={brand.image}
               className={`flex h-12 w-12 items-center justify-center rounded-full text-[10px] font-bold uppercase tracking-wide text-white transition-transform duration-300 hover:scale-110 md:h-14 md:w-14 ${brand.color}`}
             >
-              {brand.name.slice(0, 2)}
+              <img src={brand.image} alt="" />
             </div>
           ))}
         </div>

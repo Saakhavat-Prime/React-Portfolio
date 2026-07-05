@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%">
+  <!-- True Pastel Light Pink Background -->
+  <rect width="32" height="32" rx="8" fill="#fbcfe8" /> 
+  
+  <!-- Charcoal/Dark Text for Perfect Readability against Pale Pink -->
+  <text x="50%" y="56%" 
+        dominant-baseline="middle" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-weight="900" 
+        font-size="13" 
+        letter-spacing="-0.5"
+        fill="#18181b">S-K</text>
+</svg>
